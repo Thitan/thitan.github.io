@@ -1,4 +1,4 @@
-<li ><a href="/" class="{% if page.url == '/' %}active{% endif %} btn">About</a></li>
+<li ><a href="/" class="{% if page.url === '/' %}active{% endif %} btn">About</a></li>
 <li ><a href="/research.html" class="{% if page.url == '/research.html' %}active{% endif %} btn">Research</a></li>
 <li ><a href="/music.html" class="{% if page.url == '/music.html' %}active{% endif %} btn">Music</a></li>
 <li ><a href="/contact.html" class="{% if page.url == '/contact.html' %}active{% endif %} btn">Contact</a></li>
