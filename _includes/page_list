@@ -1,5 +1,9 @@
-<li class="active">
-<a href="/" class="{% if page.url == '/' %}active{% endif %} btn">About</a></li>
+<li class="active"><a href="/" class="{% if page.url == '/' %}active{% endif %} btn">About</a></li>
+<li class="active"><a href="/research.html" class="{% if page.url == '/' %}active{% endif %} btn">Research</a></li>
+<li class="active"><a href="/music.html" class="{% if page.url == '/' %}active{% endif %} btn">Music</a></li>
+<li class="active"><a href="/contact.html" class="{% if page.url == '/' %}active{% endif %} btn">Contact</a></li>
+
+<!-- 
 {% for node in pages_list %}
   {% if group == null or group == node.group %}
     {% if page.url == node.url %}
@@ -11,3 +15,4 @@
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+-->
